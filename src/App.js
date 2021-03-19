@@ -1,12 +1,15 @@
 import './App.css';
 import Test from './components/test';
+import Home from './Home'
+import Nearbyplaces from './components/Nearbyplaces'
 
 function App() {
   return (
     <div className="App">
+            {/* <Header /> */}
 
-     <p>holiday nepal in nepal</p>
-    <Test />
+      <Home/>
+      <Nearbyplaces/>
     </div>
   );
 }
