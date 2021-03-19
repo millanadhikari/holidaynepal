@@ -1,0 +1,19 @@
+.firstcard { 
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.firstcard__row {
+    display: flex;
+    margin: 10px;
+    min-width: 300px;
+}
+.firstcard > img { 
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 12px;
+
+}
