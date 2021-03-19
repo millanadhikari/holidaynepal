@@ -17,9 +17,10 @@ function App() {
     
 
             {/* <Header /> */}
- <Joinhost/>
-    <Home/>
+ <Home/>
       <Nearbyplaces/>
+    <Joinhost/>
+    
       <Destinations/>
       <Footer/>
       
