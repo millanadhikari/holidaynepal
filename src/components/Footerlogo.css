@@ -1,0 +1,8 @@
+.footerlogo{
+   
+    display: flex;
+    flex-direction: column;
+}
+.footerlogo > div{
+    margin:10px 0px
+}

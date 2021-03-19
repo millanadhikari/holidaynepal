@@ -1,0 +1,21 @@
+.Artandculture{
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.Artandculture >div{
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.Artandculture >div >div{
+    margin:30px 50px;
+}
+.Artandculture p{
+    color:gray;
+}
+   

@@ -1,0 +1,21 @@
+.joinhostcard__here{
+
+    width:300px;
+    height:250px;
+    border-radius: 7px;
+    margin:0px 30px;
+    background-position:center;
+    cursor: pointer;
+}
+.joinhostcard__here:hover{
+    width:310px;
+    height:255px;
+    box-shadow: 0px 4px 5px 0px black;
+    transition: ease-in-out 300ms;
+}
+.joinhostcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

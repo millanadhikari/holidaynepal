@@ -1,0 +1,13 @@
+.footerabout{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+
+
+}
+.footerabout > div{
+    margin:10px 0px ;
+    
+}

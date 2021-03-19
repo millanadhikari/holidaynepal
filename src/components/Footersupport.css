@@ -1,0 +1,7 @@
+.footersupport{
+    display: flex;
+    flex-direction: column;
+}
+.footersupport > div{
+    margin:10px 0px;
+}
