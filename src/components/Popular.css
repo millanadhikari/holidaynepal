@@ -1,0 +1,22 @@
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.popular >div{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.popular >div >div{
+    margin:30px 50px;
+}
+.popular p{
+    color:gray;
+}
+.modal{
+    background-color: black;
+}
+   

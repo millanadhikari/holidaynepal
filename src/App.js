@@ -1,12 +1,19 @@
 import './App.css';
-import Test from './components/test';
+import Destinations from './components/Destinations';
+import Footer from './components/Footer';
+import Joinhost from './components/Joinhost';
+
 
 function App() {
   return (
     <div className="App">
+      <Joinhost/>
+      <Destinations/>
+      <Footer/>
+      
 
-     <p>holiday nepal in nepal</p>
-    <Test />
+     
+    
     </div>
   );
 }

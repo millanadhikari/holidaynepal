@@ -1,0 +1,32 @@
+.destination{
+    display: flex;
+    flex-direction: column;
+    padding:20px 100px;
+}
+.destination >div{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.destination__top div{
+    cursor: pointer;
+    padding:5px 15px;
+    
+
+
+}
+.destination__top div:hover{
+    background-color: #F7F7F7;
+    border-radius: 7px;
+
+}
+.top_top{
+   
+    background-color: #F7F7F7;
+    border-radius: 7px;
+    border-bottom: 2px black solid;
+
+}
+.destination__top{
+    border-bottom: 1px solid gray;
+}

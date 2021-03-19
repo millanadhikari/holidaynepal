@@ -1,0 +1,20 @@
+.mountains{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.mountains >div{
+    display:flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.mountains >div >div{
+    margin:30px 50px;
+}
+.mountains p{
+    color:gray;
+}
+   

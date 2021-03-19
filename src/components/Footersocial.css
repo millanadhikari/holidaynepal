@@ -1,0 +1,15 @@
+.footersocial{
+    display: flex;
+    flex-direction: column;
+}
+.footersocial >div{
+    display: flex;
+    margin-right:40px;
+}
+.footersocial >div >div{
+    display: flex;
+    margin-right:30px
+}
+.footersocial div img{
+    height:35px;
+}
