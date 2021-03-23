@@ -4,7 +4,6 @@ import './App.css';
 import Destinations from './components/Destinations';
 import Footer from './components/Footer';
 import Joinhost from './components/Joinhost';
-import Test from './components/test';
 import Home from './Home'
 import Nearbyplaces from './components/Nearbyplaces'
 
@@ -18,12 +17,12 @@ function App() {
 
             {/* <Header /> */}
  <Home/>
-      <Nearbyplaces/>
+      {/* <Nearbyplaces/>
     <Joinhost/>
     
       <Destinations/>
       <Footer/>
-      
+       */}
 
     </div>
   );
