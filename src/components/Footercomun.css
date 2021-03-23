@@ -1,7 +1,0 @@
-.footercomun{
-    display: flex;
-    flex-direction: column;
-}
-.footercomun > div{
-    margin:10px 0px;
-}
