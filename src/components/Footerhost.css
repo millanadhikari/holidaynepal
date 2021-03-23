@@ -1,7 +1,0 @@
-.footerhost{
-    display: flex;
-    flex-direction: column;
-}
-.footerhost > div{
-    margin:10px 0px;
-}
