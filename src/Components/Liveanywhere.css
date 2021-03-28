@@ -1,0 +1,13 @@
+.liveanywhere>h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.liveanywhere__cards{
+    display: flex;
+    overflow-y: scroll;
+
+}
+.liveanywhere{
+    margin:20px 10px;
+}

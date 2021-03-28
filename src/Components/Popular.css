@@ -1,0 +1,32 @@
+.popular{
+    width:340px;
+    height:300px;
+   
+    margin:10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.popular__img{
+    display: flex;
+}
+.popular__mainimg{
+    width:150px;
+    height:200px;
+    flex:1;
+    border-radius: 6px;
+    background-position: center;
+    background-size: cover;
+}
+.popular__img>div{
+    margin:0px 2px;
+}
+.popular__sideimg> div{
+    width:100px;
+    height:98px;
+    border-radius: 5px;
+    margin:2px 0px;
+    background-position: center;
+    background-size: cover;
+}

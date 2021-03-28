@@ -1,0 +1,33 @@
+.myfavourite> h3{
+    display: flex;
+    justify-content: center;
+    
+}
+.myfavourite >div{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.login_but{
+    margin:5px 10px;
+    padding:20px 20px;
+    border-radius: 5px;
+    background-color: skyblue;
+    font-size: large;
+    color:white;
+    text-decoration: none;
+}
+
+    
+
+.myfavourite{
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+.favourites{
+    min-height:95vh;
+}

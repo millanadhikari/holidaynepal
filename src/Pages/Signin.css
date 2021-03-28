@@ -1,0 +1,42 @@
+.formfields{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+.formfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.formfield__input{
+    border:none;
+    background-color: white;
+    border-bottom: 1px gray solid;
+    margin-top:5px;
+}
+.formfield__input:hover{
+   
+    box-shadow:  0px 1px gray;
+
+}
+.small{
+    font-size: small;
+    color:gray;
+}
+.formfield__label{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+.formfield__label>div{
+    margin-right: 10px;
+}
+.signin{
+    margin:30px 0px;
+}
+
+

@@ -1,0 +1,16 @@
+.nearby{
+    margin:20px 30px;
+}
+.nearby >h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nearby__places{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height:220px;
+
+}

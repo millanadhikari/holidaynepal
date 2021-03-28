@@ -1,0 +1,14 @@
+.hotelcards{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.hotel__images{
+    border:none;
+    height:190px;
+    width:290px;
+    border-radius: 9px;
+    margin:10px 0px;
+    background-position: center;
+    background-size: cover;
+}

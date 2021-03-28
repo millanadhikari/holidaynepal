@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0px;
+   
+}
+.search{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding:5px 5px;
+    margin:20px;
+    display: flex;
+    align-items: center;
+}
+.search_input{
+ border:none;
+ background-color: transparent;
+}
+.header.active{
+    background-color:white;
+}
+.header.active> img{
+    background-image: url(../asset/logo.png);
+    height:50px;
+    width:40px; 
+    background-position: center;
+    background-size: cover;
+   
+    
+   
+}

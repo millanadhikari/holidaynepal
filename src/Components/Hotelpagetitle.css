@@ -1,0 +1,18 @@
+.hotelpage_title{
+    padding:5px 15px 5px 15px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top:0px;
+   
+}
+.title_search{
+    display: flex;
+
+}
+.title_search>div{
+    margin-right: 15px;
+}

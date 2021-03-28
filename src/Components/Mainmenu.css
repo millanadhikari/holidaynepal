@@ -1,0 +1,33 @@
+.mainmenu{
+    border-top: 1px solid gray;
+    padding:2px 5px;
+    box-shadow: 0px 0px 2px 0px black;
+    display: flex;
+    justify-content: center;
+    /* position: -webkit-sticky; Safari */
+     position: sticky;
+    bottom: 0;
+    z-index:100;
+    background-color: whitesmoke;
+    
+   
+}
+.mainmenu__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5px 15px;
+    font-size: small;
+    color:gray;
+}
+
+.mainmenu.hidden{
+    display: none;
+}
+.mainmenu__link{
+    text-decoration: none;
+}
+.menu_link_active{
+    color:#ff455c;
+}

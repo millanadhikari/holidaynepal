@@ -1,0 +1,28 @@
+.nearbyplace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 5px;
+}
+.nearbyplace> div{
+    margin:0px 5px;
+}
+.nearbyplace__image{
+    width:80px;
+    height:70px;
+    
+    border-radius: 9px;
+    background-position: center;
+    background-size: cover;
+}
+.hours{
+    font-size: small;
+}
+.place__detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hours>.MuiSvgIcon-root{
+    color:#ff455c;
+}

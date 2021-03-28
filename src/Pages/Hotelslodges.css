@@ -1,0 +1,20 @@
+
+.hotel{
+    
+}
+.hotelpage__content{
+    margin-top:30px;
+    padding:5px 15px;
+}
+.hotel__places{
+    display: flex;
+    justify-content: space-between;
+}
+.hotelpage__content>div{
+    margin:10px 0px;
+    
+}
+.hotels_lists{
+    display: flex;
+    overflow: scroll;
+}

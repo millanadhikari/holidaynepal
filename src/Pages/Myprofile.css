@@ -1,0 +1,101 @@
+.myprofile{
+    min-height:100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.pageswitcher__item{
+    color:#ff455c;
+    text-decoration: none;
+    background-color: white;
+    border:none;
+    margin:0px 5px;
+    padding:5px 5px;
+}
+.pageswitcher__item.active{
+    color:white;
+    text-decoration: none;
+    background-color: #ff455c;
+    border-radius: 4px;
+    margin:0px 2px;
+
+}
+
+
+.pageswitcher{
+   
+    padding:10px 10px;
+}
+.pageswitcher>div{
+    display: flex;
+    justify-content: flex-start;
+   
+  
+   
+   border:none;
+}
+.formtitle{
+    display: flex;
+    align-items: center;
+    margin:90px 5px;
+
+}
+.switch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+.logins{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+.logins_buttons{
+    width:290px;
+    margin:15px 0px;
+    padding:10px 10px;
+    border:none;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    display: flex;
+
+}
+.logins_buttons>div{
+    margin:0px 7px;
+}
+
+.logins_buttons:hover{
+    box-shadow: 0px 0px 5px 0px black;
+}
+.countries__modal{
+    width:150px;
+    height:120px;
+   
+    display: flex;
+    justify-content: center;
+    
+    border:none;
+    margin:0px 0px 0px 50px;
+  position: absolute;
+
+}
+.countries{
+    width:200px;
+    height:120px;
+    overflow-y: scroll;
+    border:1px solid gray;
+    border-radius: 7px;
+}
+.countries>div{
+    margin:10px 5px;
+    padding:2px 5px;
+    border-bottom: 1px solid gray;
+}
+.countries>div:hover{
+    background-color: whitesmoke;
+}

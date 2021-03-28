@@ -1,0 +1,61 @@
+.profiledetail{
+   min-height:95vh;
+   padding:20px 30px;
+
+}
+.user__image{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    border:none;
+    background-position: center;
+    background-size: cover;
+}
+.pinky{
+    color: #ff455c;
+    font-size: small;
+}
+.user__title{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+}
+.user__title> div{
+    margin-left:15px;
+}
+.setting__items{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.account__setting{
+    display: flex;
+    flex-direction: column;
+    margin:20px 5px 20px 15px;
+}
+.account__setting div{
+    margin:4px 0px;
+}
+.logout__button{
+    display: flex;
+    justify-content: center;
+    border:1px solid gray;
+    margin:140px 0px 0px 15px;
+    padding:10px 0px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 1px 0px gray;
+}
+.titles{
+    font-size: small;
+    font-weight: bold;
+    color:gray
+}
+.smallletters{
+    font-size: small;
+    font-weight: 600;
+    
+}
+.setting__items .MuiSvgIcon-root{
+   color:gray;
+}
